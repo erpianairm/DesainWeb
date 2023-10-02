@@ -1,0 +1,101 @@
+/* style.css */
+
+*{
+    background-color: beige;
+}
+/* Gaya untuk body */
+body {  
+    font-family: Arial, sans-serif;
+    background-color:beige;
+}
+
+/* Gaya untuk header */
+header {
+    background-color:#007bff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Gaya untuk navigasi */
+nav ul {
+    list-style-type: none;
+    bottom: 100px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color:blue;
+}
+
+/* Gaya untuk judul */
+h1 {
+    color: #333;
+    margin: 20px;
+}
+
+/* Gaya untuk tombol "Cari" */
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+form input[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    position: absolute;
+}
+
+/* Gaya untuk gambar */
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+
+/* Gaya untuk judul-judul */
+h3, h4 {
+    color: #007bff;
+}
+
+.simple {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    background-color:aqua;
+    margin: 0 200px;
+    padding: 20px;
+  }
+
+  body {  
+    font-family: Arial, sans-serif;
+    background-color:beige;
+    box-sizing: border-box;
+  }
+
+
+  .relative2{
+    position: relative;
+    width: 900px;
+    height: 100px;
+    top: -20px;
+    border: 1px solid blue;
+    justify-items: center;
+    }
